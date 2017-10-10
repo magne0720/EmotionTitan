@@ -27,3 +27,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+EmotionTitan/Library/EditorInstance.json
+EmotionTitan/Library/shadercompiler-UnityShaderCompiler.exe0.log
+EmotionTitan/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19
+EmotionTitan/Temp/UnityLockfile
+EmotionTitan/Temp/ProcessJobs/e9a6970f79cd12d8b075e7d72f1b07cb.bakert
