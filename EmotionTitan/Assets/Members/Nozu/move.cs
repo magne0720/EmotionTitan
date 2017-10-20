@@ -24,10 +24,10 @@ public class move : MonoBehaviour {
 	}
     void move_move()
     {
-        if (timer >= 1.0f) timer = 0;
+        if (timer > 1.0f) timer = 0;
 
-        pos.x = Mathf.Sin(2.0f * timer * Mathf.PI) * 10.0f * sp;
-        pos.y = Mathf.Cos(2.0f * timer * Mathf.PI) * 10.0f * sp;
+        pos.x = Mathf.Cos(2.0f * timer * Mathf.PI) * 10.0f * sp;
+        pos.y = Mathf.Sin(2.0f * timer * Mathf.PI) * 10.0f * sp;
 
         transform.position = pos;
     }

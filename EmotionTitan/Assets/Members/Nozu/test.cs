@@ -17,8 +17,16 @@ public class test : MonoBehaviour {
         if (Input.GetMouseButton(0))
         {
             Instantiate(go);
+            checkScript(go);
             count++;
         }
 	}
-
+    void checkScript(GameObject g)
+    {
+        if (g.GetComponent<move>() == null)
+        {
+            Debug.Log("null");
+            g.AddComponent<move>();
+        }
+    }
 }
